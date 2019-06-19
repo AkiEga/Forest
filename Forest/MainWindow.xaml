@@ -1,0 +1,38 @@
+﻿<Window x:Class="Forest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Forest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <!---->
+        <TextBlock 
+            HorizontalAlignment="Left" 
+            Margin="10,0,0,0" TextWrapping="Wrap" Text="Path:" VerticalAlignment="Center"/>
+        <TextBox Name="PathTextBox"  
+                 Grid.Row="0" Grid.Column="0" Height="23" Margin="50,6,85,6" 
+                 TextWrapping="NoWrap" Text="TextBox" VerticalAlignment="Center" Grid.ColumnSpan="2"/>
+        <Button Name="LoadBtn" Grid.Row="0" Grid.Column="1" Content="Load" HorizontalAlignment="Right" Margin="5" VerticalAlignment="Center" Width="75" Click="LoadBtn_Click"/>
+        
+        <!---->
+        <TreeView Name="FileTreeView" HorizontalAlignment="Left" Height="364" Margin="10,10,10,10" Grid.Row="1" VerticalAlignment="Top" Width="366">
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate DataType="local:NestedFile" ItemsSource="{Binding Children}">
+                    <TextBlock Text="{Binding Name}" />
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+        </TreeView>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+C:\work\WPF\Forest\Forest\bin\Debug\Forest.exe.config
+C:\work\WPF\Forest\Forest\bin\Debug\Forest.exe
+C:\work\WPF\Forest\Forest\bin\Debug\Forest.pdb
+C:\work\WPF\Forest\Forest\obj\Debug\Forest.csprojAssemblyReference.cache
+C:\work\WPF\Forest\Forest\obj\Debug\MainWindow.g.cs
+C:\work\WPF\Forest\Forest\obj\Debug\App.g.cs
+C:\work\WPF\Forest\Forest\obj\Debug\Forest_MarkupCompile.cache
+C:\work\WPF\Forest\Forest\obj\Debug\Forest_MarkupCompile.lref
+C:\work\WPF\Forest\Forest\obj\Debug\MainWindow.baml
+C:\work\WPF\Forest\Forest\obj\Debug\Forest.g.resources
+C:\work\WPF\Forest\Forest\obj\Debug\Forest.Properties.Resources.resources
+C:\work\WPF\Forest\Forest\obj\Debug\Forest.csproj.GenerateResource.cache
+C:\work\WPF\Forest\Forest\obj\Debug\Forest.csproj.CoreCompileInputs.cache
+C:\work\WPF\Forest\Forest\obj\Debug\Forest.exe
+C:\work\WPF\Forest\Forest\obj\Debug\Forest.pdb
